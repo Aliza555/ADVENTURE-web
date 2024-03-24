@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    min-height:100vh ;
+    justify-content: space-between;
+    background-image: url(-\ Find\ &\ Share\ on\ GIPHY.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.logo img{
+    width: 60px;
+}
+.navbar a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: end;
+}
+.sign-up{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px;
+}
+.sign-up:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.home{
+    text-align: center;
+    justify-content: space-between;
+    padding: 300px;
+}
+h1{
+    color: white;
+   font-size: 4rem;
+   font-weight: 600;
+   padding: 19px;
+}
+h4{
+  color: white;
+  padding: 15px ;
+  font-size: 1.5rem;
+}
+.button{
+    justify-content: space-between;
+  padding: 30px;
+  margin: 10px;
+}
+.get{
+    background-color: transparent;
+    border: 1px solid white;
+     color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+.get:hover{
+     background-color: white;
+     color: black;
+     font-weight: 500;
+}
+.watch{
+    background-color: white;
+    padding: 20px;
+    font-size: 1rem;
+    margin: 10px;
+    color: black;
+}
+.watch:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+ .get a {
+    color: black;
+    border: 2px solid white;
+    padding: 100px;
+    margin: 10px;
+}
+.watch a{
+    color: black;
+    border: 2px solid black;
+    padding: 90px;
+    margin: 10px;
+}
+.watch img{
+    width: 40px;
+    margin-bottom: -.4rem;
+}
+.wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.parent{
+    width: 37%;
+    background-color: black;
+    margin: 20px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+.bg-one{
+    background-image: url(Debbie\ Balboa\ \(1\).gif) ;
+
+}
+.bg-two{
+    background-image: url(Debbie\ Balboa.gif) ;
+
+}
+.bg-three{
+    background-image: url(Gentle\ Night\ Rain\ Sleep\ Music\,\ Insomnia\,\ Meditation\,\ Relaxing\,\ Study\,\ Reduce\ Stress.jpeg);
+  
+}
+.bg-four{
+    background-image: url(-\ Find\ &\ Share\ on\ GIPHY\ \(1\).gif);
+    background-color: black;
+    padding: 3rem;
+}
+p.p{
+    background-color: black;
+    margin-top: -21rem;
+    color: #ffffffff;
+    padding: 5rem;
+     text-align: end;
+     justify-content: center;
+}
+.parent:hover .child{
+    transform: scale(1.2);
+}
+footer{
+    background-color: black;
+    display: inline-block;
+   padding: 10px;
+   min-height: 10vh;
+   min-width: 10vw;
+   color: white;
+}
+.bottom{
+    margin: 10px;
+    display: inline;
+}
+.bottom a{
+    color: white;
+    padding: 7px;
+    display: inline-block;
+}
+.second{
+    padding: 29rem;
+    margin-top: -43rem;
+}
+.second a{
+    color: white;
+    margin: 10px;
+}
+.third{
+  margin-top: -42.9rem;
+  padding: 30rem;  
+}
+.last p{
+    color: rgb(194, 192, 192);
+    margin-top: -49rem;
+}
